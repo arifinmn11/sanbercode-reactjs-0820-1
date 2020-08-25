@@ -1,0 +1,54 @@
+body {
+  background: url(pattern.jpg);
+  margin: 0;
+}
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+nav ul {
+  display: inline-flex;
+  position: relative;
+  list-style-type: none;
+}
+
+ul a {
+  margin: 10px 10px;
+  font-size: large;
+  text-decoration: none;
+}
+section {
+  position: relative;
+  margin: 20px auto;
+  background: white;
+  width: 80%;
+}
+
+section h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+section h3 {
+  padding: 4px 4px;
+}
+section p {
+  padding: 4px 4px;
+}
+#article-list div::after {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  color: white;
+  background: black;
+  width: 100%;
+  padding: 5px 0px;
+  text-align: center;
+}
