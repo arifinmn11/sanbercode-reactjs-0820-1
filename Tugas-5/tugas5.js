@@ -48,7 +48,7 @@ arrayDaftarPeserta.forEach((element, i) => {
 console.log(obj);
 
 // Soal 5
-// Jawaban 6
+// Jawaban 5
 console.log("... jawabn 5");
 var obj = [
   {
